@@ -33,6 +33,15 @@
 		5B7AD3722B551F8C0023280E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AD3712B551F8C0023280E /* BackgroundView.swift */; };
 		5B7AD3752B55203C0023280E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AD3742B55203C0023280E /* OnboardingView.swift */; };
 		5B7AD3782B5522190023280E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AD3772B5522190023280E /* WelcomeView.swift */; };
+		5BA64CF32B593AFA005F0CAC /* HeatWaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64CF22B593AFA005F0CAC /* HeatWaveModel.swift */; };
+		5BA64CF52B593BA5005F0CAC /* HeatWaveRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64CF42B593BA5005F0CAC /* HeatWaveRowView.swift */; };
+		5BA64CF72B593BB9005F0CAC /* HeatWaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64CF62B593BB9005F0CAC /* HeatWaveViewModel.swift */; };
+		5BA64CFB2B595D65005F0CAC /* HeatWaveScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64CFA2B595D65005F0CAC /* HeatWaveScaleView.swift */; };
+		5BA64CFD2B5A7CD6005F0CAC /* RegSuccessfullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64CFC2B5A7CD6005F0CAC /* RegSuccessfullView.swift */; };
+		5BA64CFF2B5A802A005F0CAC /* DepSuccessfullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64CFE2B5A802A005F0CAC /* DepSuccessfullView.swift */; };
+		5BA64D012B5A80AD005F0CAC /* PushNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64D002B5A80AD005F0CAC /* PushNotificationView.swift */; };
+		5BA64D032B5A865D005F0CAC /* RegNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64D022B5A865D005F0CAC /* RegNowView.swift */; };
+		5BA64D052B5A89BF005F0CAC /* DepNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA64D042B5A89BF005F0CAC /* DepNowView.swift */; };
 		5BD2FDD02B5856A3003ADDC0 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2FDCF2B5856A3003ADDC0 /* PostModel.swift */; };
 		5BD2FDD22B585841003ADDC0 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2FDD12B585841003ADDC0 /* PostViewModel.swift */; };
 		5BD2FDD42B585AA4003ADDC0 /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2FDD32B585AA4003ADDC0 /* PostRowView.swift */; };
@@ -66,6 +75,15 @@
 		5B7AD3712B551F8C0023280E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		5B7AD3742B55203C0023280E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		5B7AD3772B5522190023280E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5BA64CF22B593AFA005F0CAC /* HeatWaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatWaveModel.swift; sourceTree = "<group>"; };
+		5BA64CF42B593BA5005F0CAC /* HeatWaveRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatWaveRowView.swift; sourceTree = "<group>"; };
+		5BA64CF62B593BB9005F0CAC /* HeatWaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatWaveViewModel.swift; sourceTree = "<group>"; };
+		5BA64CFA2B595D65005F0CAC /* HeatWaveScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatWaveScaleView.swift; sourceTree = "<group>"; };
+		5BA64CFC2B5A7CD6005F0CAC /* RegSuccessfullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegSuccessfullView.swift; sourceTree = "<group>"; };
+		5BA64CFE2B5A802A005F0CAC /* DepSuccessfullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepSuccessfullView.swift; sourceTree = "<group>"; };
+		5BA64D002B5A80AD005F0CAC /* PushNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationView.swift; sourceTree = "<group>"; };
+		5BA64D022B5A865D005F0CAC /* RegNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegNowView.swift; sourceTree = "<group>"; };
+		5BA64D042B5A89BF005F0CAC /* DepNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepNowView.swift; sourceTree = "<group>"; };
 		5BD2FDCF2B5856A3003ADDC0 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		5BD2FDD12B585841003ADDC0 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		5BD2FDD32B585AA4003ADDC0 /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
@@ -116,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				5B1A132B2B567E0100A53658 /* VolatilityView.swift */,
+				5BA64CF12B593AAA005F0CAC /* ViewModel */,
+				5BA64CF02B593A82005F0CAC /* View */,
+				5BA64CEF2B593A78005F0CAC /* Model */,
 			);
 			path = VolatilityTab;
 			sourceTree = "<group>";
@@ -233,10 +254,11 @@
 		5B7AD3692B551CA90023280E /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				5B1A133F2B56E87F00A53658 /* ScaleView.swift */,
 				5B7AD36A2B551CD80023280E /* SpinnerView.swift */,
 				5B1A13322B56877400A53658 /* PrivacyButton.swift */,
 				5B1A13342B568A0A00A53658 /* SupportButton.swift */,
+				5B1A133F2B56E87F00A53658 /* ScaleView.swift */,
+				5BA64CFA2B595D65005F0CAC /* HeatWaveScaleView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -278,6 +300,11 @@
 		5B7AD36F2B551F5D0023280E /* Successfull */ = {
 			isa = PBXGroup;
 			children = (
+				5BA64CFC2B5A7CD6005F0CAC /* RegSuccessfullView.swift */,
+				5BA64CFE2B5A802A005F0CAC /* DepSuccessfullView.swift */,
+				5BA64D002B5A80AD005F0CAC /* PushNotificationView.swift */,
+				5BA64D022B5A865D005F0CAC /* RegNowView.swift */,
+				5BA64D042B5A89BF005F0CAC /* DepNowView.swift */,
 			);
 			path = Successfull;
 			sourceTree = "<group>";
@@ -332,6 +359,30 @@
 				5BD2FDD12B585841003ADDC0 /* PostViewModel.swift */,
 			);
 			path = ModelView;
+			sourceTree = "<group>";
+		};
+		5BA64CEF2B593A78005F0CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BA64CF22B593AFA005F0CAC /* HeatWaveModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BA64CF02B593A82005F0CAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BA64CF42B593BA5005F0CAC /* HeatWaveRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BA64CF12B593AAA005F0CAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BA64CF62B593BB9005F0CAC /* HeatWaveViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,10 +460,14 @@
 				5BD2FDD42B585AA4003ADDC0 /* PostRowView.swift in Sources */,
 				5B7AD3722B551F8C0023280E /* BackgroundView.swift in Sources */,
 				5BD2FDD02B5856A3003ADDC0 /* PostModel.swift in Sources */,
+				5BA64D032B5A865D005F0CAC /* RegNowView.swift in Sources */,
+				5BA64CF52B593BA5005F0CAC /* HeatWaveRowView.swift in Sources */,
 				5B21B4482B553F89005F27A9 /* DemoPairsView.swift in Sources */,
+				5BA64D052B5A89BF005F0CAC /* DepNowView.swift in Sources */,
 				5B1A13402B56E87F00A53658 /* ScaleView.swift in Sources */,
 				5B1A13282B567BA100A53658 /* HomeView.swift in Sources */,
 				5B1A133C2B56DFEC00A53658 /* PairViewModel.swift in Sources */,
+				5BA64CFD2B5A7CD6005F0CAC /* RegSuccessfullView.swift in Sources */,
 				5B1A13352B568A0A00A53658 /* SupportButton.swift in Sources */,
 				5B1A133A2B56DFCF00A53658 /* PairModel.swift in Sources */,
 				5B1A13422B572AEF00A53658 /* RoundedCorner.swift in Sources */,
@@ -421,12 +476,17 @@
 				5B1A133E2B56E25900A53658 /* PairRowView.swift in Sources */,
 				5B7AD3752B55203C0023280E /* OnboardingView.swift in Sources */,
 				5B7AD36B2B551CD80023280E /* SpinnerView.swift in Sources */,
+				5BA64CFB2B595D65005F0CAC /* HeatWaveScaleView.swift in Sources */,
+				5BA64CFF2B5A802A005F0CAC /* DepSuccessfullView.swift in Sources */,
 				5B1A132A2B567DDB00A53658 /* IdeasView.swift in Sources */,
 				5B21B44A2B554399005F27A9 /* DemoRateAppView.swift in Sources */,
 				5B1A132E2B56850600A53658 /* SettingsView.swift in Sources */,
+				5BA64CF32B593AFA005F0CAC /* HeatWaveModel.swift in Sources */,
 				5B7AD3602B5513320023280E /* Color.swift in Sources */,
+				5BA64D012B5A80AD005F0CAC /* PushNotificationView.swift in Sources */,
 				5B7AD3782B5522190023280E /* WelcomeView.swift in Sources */,
 				5B21B44C2B55455F005F27A9 /* DemoScaleOfPairs.swift in Sources */,
+				5BA64CF72B593BB9005F0CAC /* HeatWaveViewModel.swift in Sources */,
 				5B1A132C2B567E0100A53658 /* VolatilityView.swift in Sources */,
 				5B1A13222B56790000A53658 /* TabBarView.swift in Sources */,
 				5B1A13332B56877400A53658 /* PrivacyButton.swift in Sources */,

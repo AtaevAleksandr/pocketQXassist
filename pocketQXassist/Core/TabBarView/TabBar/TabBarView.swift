@@ -41,7 +41,7 @@ struct TabBarView: View {
                 VolatilityView()
                     .tabItem { Label("Volatility", image: "Volatility") }.tag(3)
             }
-            .tint(Color.theme.customOrange)
+            .accentColor(Color.theme.customOrange)
             .overlay(alignment: .bottom) {
                 Divider()
                     .foregroundStyle(Color.theme.customGray)
@@ -83,5 +83,6 @@ extension TabBarView {
         .preferredColorScheme(.dark)
         .environmentObject(PairViewModel())
         .environmentObject(PostViewModel())
+        .environmentObject(HeatWaveViewModel())
 
 }

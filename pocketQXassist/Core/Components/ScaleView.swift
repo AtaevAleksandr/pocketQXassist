@@ -3,7 +3,6 @@ import SwiftUI
 struct ScaleView: View {
 
     @State private var barLimit: Float = 10
-
     let pairValue: PairModel
 
     var body: some View {

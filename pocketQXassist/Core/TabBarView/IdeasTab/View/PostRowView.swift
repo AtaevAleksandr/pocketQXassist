@@ -9,6 +9,8 @@ import SwiftUI
 
 struct PostRowView: View {
 
+    @State private var isAnimating = false
+
     let post: PostModel
 
     var body: some View {
@@ -71,8 +73,18 @@ struct PostRowView: View {
                 .strokeBorder(Color.theme.border)
         }
         .roundedCorner(16, corners: .allCorners)
+        .scaleEffect(isAnimating ? 0.95 : 1.0)
         .onTapGesture {
             withAnimation {
+                self.isAnimating = true
+            }
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                withAnimation {
+                    self.isAnimating = false
+                }
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                 openLink()
             }
         }

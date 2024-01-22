@@ -61,5 +61,4 @@ struct PrivacyButton: View {
         BackgroundView()
         PrivacyButton(title: "Privacy Policy", iconImage: "Privacy")
     }
-
 }
