@@ -34,53 +34,53 @@ enum Status: Codable, CaseIterable {
             return Color.white
         }
     }
+
+    static func randomStatus() -> Status {
+        let allCases = self.allCases
+        let randomIndex = Int.random(in: 0..<allCases.count)
+        return allCases[randomIndex]
+    }
 }
 
 struct HeatWaveModel: Identifiable {
     var id = UUID()
-    let iconImage: String
+    var iconImage: String
     let color: Color
     var value: CGFloat
-    var arrow: String
-    var arrowColor: Color
+    var arrowStatus: Status
 
     static var heatWaves: [HeatWaveModel] = [
         HeatWaveModel(iconImage: "EUR:USD",
                       color: .blue,
                       value: 34.56,
-                      arrow: Status.greenArrow.displayText,
-                      arrowColor: Status.greenArrow.backgroundColor),
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "EUR:CAD",
                       color: .red,
                       value: 13.02,
-                      arrow: Status.whiteArrow.displayText,
-                      arrowColor: Status.whiteArrow.backgroundColor),
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "GBP:USD",
                       color: .orange,
                       value: 19.72,
-                      arrow: Status.whiteArrow.displayText,
-                      arrowColor: Status.whiteArrow.backgroundColor),
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "EUR:GBP",
                       color: .purple,
                       value: 28.02,
-                      arrow: Status.whiteArrow.displayText,
-                      arrowColor: Status.whiteArrow.backgroundColor),
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "CAD:CHF",
                       color: .mint,
                       value: 30.77,
-                      arrow: Status.whiteArrow.displayText,
-                      arrowColor: Status.whiteArrow.backgroundColor),
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "USD:JPY",
                       color: .yellow,
-                      value: 14.76, arrow: Status.redArrow.displayText,
-                      arrowColor: Status.redArrow.backgroundColor),
+                      value: 14.76, 
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "CAD:JPY",
                       color: .indigo,
-                      value: 10.56, arrow: Status.greenArrow.displayText,
-                      arrowColor: Status.greenArrow.backgroundColor),
+                      value: 10.56, 
+                      arrowStatus: .randomStatus()),
         HeatWaveModel(iconImage: "GBP:JPY",
                       color: .green,
-                      value: 42.29, arrow: Status.redArrow.displayText,
-                      arrowColor: Status.redArrow.backgroundColor)
+                      value: 42.29, 
+                      arrowStatus: .randomStatus())
     ]
 }

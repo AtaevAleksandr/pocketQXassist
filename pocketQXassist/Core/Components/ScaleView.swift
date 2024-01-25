@@ -37,9 +37,12 @@ struct ColoredScaleView: View {
                     .foregroundStyle(Color.theme.backgroundBar)
                     .frame(width: geometry.size.width * CGFloat(barValue) / CGFloat(barTotal))
                     .roundedCorner(.infinity, corners: [.topRight, .bottomRight])
-
             }
         }
         .frame(height: 25)
     }
+}
+
+#Preview {
+    ScaleView(pairValue: PairModel(iconImage: "USD:EUR", name: "USD/EUR", value: 3))
 }

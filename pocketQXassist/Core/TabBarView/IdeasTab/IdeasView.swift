@@ -12,17 +12,17 @@ struct IdeasView: View {
     @EnvironmentObject private var viewModel: PostViewModel
 
     var body: some View {
-            ZStack {
-                BackgroundView()
+        ZStack {
+            BackgroundView()
 
-                ScrollView(showsIndicators: false) {
-                    ForEach(viewModel.allPosts) { post in
-                        PostRowView(post: post)
-                            .padding(.vertical, 5)
-                    }
-                    .padding()
+            ScrollView(showsIndicators: false) {
+                ForEach(viewModel.allPosts) { post in
+                    PostRowView(post: post)
+                        .padding(.vertical, 5)
                 }
+                .padding()
             }
+        }
     }
 }
 

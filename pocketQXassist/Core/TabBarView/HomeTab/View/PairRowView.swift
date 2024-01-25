@@ -14,7 +14,6 @@ struct PairRowView: View {
 
     var body: some View {
         DisclosureGroup(isExpanded: $isExpanded) {
-
             VStack {
                 ScaleView(pairValue: PairModel(iconImage: pair.iconImage, name: pair.name, value: 10.0 - pair.value))
                     .padding(.top, 30)
@@ -33,10 +32,21 @@ struct PairRowView: View {
 
                 Text(pair.name)
                     .font(.system(size: 16))
+                    .foregroundStyle(.white)
+
+                Spacer()
+
+                Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 14, height: 14)
+                    .foregroundStyle(.gray)
+                    .padding(.trailing, -20)
+                    .animation(.none, value: UUID())
             }
             .frame(height: 15)
         }
-        .tint(.white)
+        .tint(.clear)
         .padding()
         .background(
             Group {

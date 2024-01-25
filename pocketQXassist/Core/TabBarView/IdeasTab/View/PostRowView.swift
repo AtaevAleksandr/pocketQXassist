@@ -30,18 +30,14 @@ struct PostRowView: View {
                     .lineLimit(2)
                     .truncationMode(.tail)
                     .foregroundStyle(Color.theme.customGray)
-
-                Text("By \(post.author)")
-                    .font(.system(size: 14))
-                    .foregroundStyle(.white)
             }
-            .padding(.top, 8)
+            .padding(.top, 10)
             .padding(.horizontal)
 
             HStack {
-                Text(post.date)
+                Text("By \(post.author)")
                     .font(.system(size: 14))
-                    .foregroundStyle(Color.theme.customGray)
+                    .foregroundStyle(.white)
 
                 Spacer()
 
@@ -63,7 +59,7 @@ struct PostRowView: View {
                     .font(.system(size: 12))
                     .foregroundStyle(.white)
             }
-            .padding(.top, 4)
+            .padding(.top, 20)
             .padding(.horizontal)
         }
         .padding(.bottom)
@@ -108,7 +104,6 @@ struct PostRowView: View {
                                     title: "Sell GBPUSD Channel Breakout",
                                     subTitle: "Weaker inflation, higher unemployment and gloom from policymakers. The fall in inflation is not the only issue holding the BoE back from hikes.",
                                     author: "KABHI_FOREX_TRADING",
-                                    date: "Jan 17, 2024",
                                     commentImage: "commentImage",
                                     commentsCount: 29,
                                     rocketImage: "rocketImage",

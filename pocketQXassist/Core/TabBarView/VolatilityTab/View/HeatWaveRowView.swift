@@ -15,7 +15,6 @@ struct HeatWaveRowView: View {
         HeatWaveScaleView(heatWave:
                             HeatWaveModel(iconImage: heatWave.iconImage,
                                           color: heatWave.color,
-                                          value: heatWave.value, arrow: heatWave.arrow,
-                                          arrowColor: heatWave.arrowColor))
+                                          value: heatWave.value, arrowStatus: heatWave.arrowStatus))
     }
 }

@@ -30,7 +30,7 @@ struct SupportButton: View {
                 Image(systemName: "chevron.right")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 16, height: 16)
+                    .frame(width: 14, height: 14)
                     .foregroundStyle(.gray)
             }
             .padding(.horizontal)
@@ -47,7 +47,7 @@ struct SupportButton: View {
     }
 
     func openLink() {
-        let urlString = "https://docs.google.com/forms"
+        let urlString = "https://forms.gle/xBNv8iqexjsFyvodA"
         if let url = URL(string: urlString) {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)

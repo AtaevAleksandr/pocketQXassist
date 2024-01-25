@@ -18,21 +18,23 @@ struct HeatWaveScaleView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 32, height: 32)
+                .animation(.none, value: UUID())
 
             HeatScaleView(barTotal: CGFloat(barLimit), barValue: heatWave.value, barColor: heatWave.color)
 
-            Text("\(heatWave.value, format: .number.precision(.fractionLength(2)))%")
-                .font(.system(size: 13, weight: .bold))
-                .foregroundStyle(heatWave.arrowColor)
-                .animation(.none, value: UUID())
+            HStack {
+                Text("\(heatWave.value, format: .number.precision(.fractionLength(2)))%")
+                    .font(.system(size: 13, weight: .bold))
+                    .animation(.none, value: UUID())
 
-            Image(systemName: heatWave.arrow)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 16, height: 16)
-                .font(.system(size: 12, weight: .bold))
-                .foregroundStyle(heatWave.arrowColor)
-                .animation(.none, value: UUID())
+                Image(systemName: heatWave.arrowStatus.displayText)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 16, height: 16)
+                    .font(.system(size: 12, weight: .bold))
+                    .animation(.none, value: UUID())
+            }
+            .foregroundStyle(heatWave.arrowStatus.backgroundColor)
         }
     }
 }

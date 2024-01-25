@@ -87,6 +87,12 @@ extension OnboardingView {
 
     private func requestTrackingAuthorization() {
         ATTrackingManager.requestTrackingAuthorization { status in
+            DispatchQueue.main.async {
+                withAnimation(.spring()) {
+                    self.onboardingState += 1
+                }
+            }
+
             switch status {
             case .authorized:
                 withAnimation(.spring()) {

@@ -30,7 +30,7 @@ struct PrivacyButton: View {
                 Image(systemName: "chevron.right")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 16, height: 16)
+                    .frame(width: 14, height: 14)
                     .foregroundStyle(.gray)
             }
             .padding(.horizontal)
@@ -47,7 +47,7 @@ struct PrivacyButton: View {
     }
 
     func openLink() {
-        let urlString = "https://www.freeprivacypolicy.com"
+        let urlString = "https://www.freeprivacypolicy.com/live/96ebabdc-3600-4b47-bb6d-aade74001fe4"
         if let url = URL(string: urlString) {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
