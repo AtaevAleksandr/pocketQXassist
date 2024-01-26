@@ -22,6 +22,7 @@ struct PairRowView: View {
                     .font(.system(size: 16, weight: .bold))
                     .foregroundStyle(.white)
                     .padding(.top, 30)
+                    .animation(.none, value: UUID())
             }
         } label: {
             HStack {

@@ -11,6 +11,14 @@ struct HomeView: View {
 
     @EnvironmentObject private var viewModel: PairViewModel
 
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+
+    @State private var nextUpdateTime: Date = {
+        let calendar = Calendar.current
+        let endTime = calendar.date(byAdding: .second, value: 5, to: Date()) ?? Date()
+        return endTime
+    }()
+
     var body: some View {
         ZStack {
             BackgroundView()
@@ -22,6 +30,22 @@ struct HomeView: View {
                 }
                 .padding()
             }
+        }
+        .onReceive(timer) { _ in
+            withAnimation(.linear(duration: 0.5)) {
+                updateTimeRemaining()
+            }
+        }
+    }
+
+    //MARK: FUNCTIONS
+    func updateTimeRemaining() {
+        let currentTime = Date()
+        let calendar = Calendar.current
+
+        if currentTime >= nextUpdateTime {
+            nextUpdateTime = calendar.date(byAdding: .second, value: 5, to: Date()) ?? Date()
+            viewModel.updatePairs()
         }
     }
 }

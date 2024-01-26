@@ -12,7 +12,7 @@ struct PairModel: Identifiable {
     var id = UUID()
     let iconImage: String
     let name: String
-    let value: CGFloat
+    var value: CGFloat
 
     static var pairs: [PairModel] = [
         PairModel(iconImage: "AUD:USD",
