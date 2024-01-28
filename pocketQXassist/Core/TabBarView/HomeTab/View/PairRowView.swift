@@ -47,7 +47,7 @@ struct PairRowView: View {
             }
             .frame(height: 15)
         }
-        .tint(.clear)
+        .accentColor(.clear)
         .padding()
         .background(
             Group {

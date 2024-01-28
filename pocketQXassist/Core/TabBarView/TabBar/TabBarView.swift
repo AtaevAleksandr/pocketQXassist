@@ -41,12 +41,9 @@ struct TabBarView: View {
                 VolatilityView()
                     .tabItem { Label("Volatility", image: "Volatility") }.tag(3)
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .padding(.leading, 0.5)
             .accentColor(Color.theme.customOrange)
-            .overlay(alignment: .bottom) {
-                Divider()
-                    .foregroundStyle(Color.theme.customGray)
-                    .offset(y: -49)
-            }
             .toolbar {
                 titles
                 settingsButton
@@ -84,5 +81,4 @@ extension TabBarView {
         .environmentObject(PairViewModel())
         .environmentObject(PostViewModel())
         .environmentObject(HeatWaveViewModel())
-
 }

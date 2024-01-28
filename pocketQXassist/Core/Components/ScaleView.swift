@@ -7,14 +7,17 @@ struct ScaleView: View {
 
     var body: some View {
         VStack {
-            HStack(spacing: 0) {
-                ForEach(0...10, id: \.self) { number in
-                    Text("\(number)")
-                        .frame(width: UIScreen.main.bounds.width / 13)
-                        .font(.system(size: 14))
-                        .foregroundStyle(.gray)
+            GeometryReader { geometry in
+                HStack(spacing: 0) {
+                    ForEach(0...10, id: \.self) { number in
+                        Text("\(number)")
+                            .frame(width: geometry.size.width / 11)
+                            .font(.system(size: 14))
+                            .foregroundStyle(.gray)
+                    }
                 }
             }
+            .frame(height: 18)
 
             ColoredScaleView(barTotal: CGFloat(barLimit), barValue: CGFloat(pairValue.value))
         }
