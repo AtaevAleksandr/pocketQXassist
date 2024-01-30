@@ -48,6 +48,7 @@ struct TabBarView: View {
                 VolatilityView()
                     .tabItem { Label("Volatility", image: "Volatility") }.tag(3)
             }
+            .navigationBarHidden(selectedTab == 1 ? true : false)
             .navigationBarTitleDisplayMode(.inline)
             .padding(.leading, 0.5)
             .accentColor(Color.theme.customOrange)

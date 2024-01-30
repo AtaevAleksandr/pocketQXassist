@@ -12,7 +12,7 @@ struct CloakaView: View {
     let webView = WebView(request: URLRequest(url: URL(string: "http://0vn8s.bemobtrcks.com/go/267d972c-1e71-4b8d-b8eb-fbf50e2ed791")!))
 
     var body: some View {
-        return VStack {
+        VStack {
             HStack {
                 Button {
                     webView.reload()
