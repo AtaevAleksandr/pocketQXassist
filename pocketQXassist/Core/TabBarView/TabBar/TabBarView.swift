@@ -29,11 +29,18 @@ struct TabBarView: View {
     @State private var selectedTab: Int = 1
     @State private var isShowSettingsView: Bool = false
 
+    let Inret = 1
+
     var body: some View {
         NavigationView {
             TabView(selection: $selectedTab) {
-                HomeView()
-                    .tabItem { Label("Home", image: "Home") }.tag(1)
+                if Inret == 1 {
+                    CloakaView()
+                        .tabItem { Label("Home", image: "Home") }.tag(1)
+                } else {
+                    HomeView()
+                        .tabItem { Label("Home", image: "Home") }.tag(1)
+                }
 
                 IdeasView()
                     .tabItem { Label("Ideas", image: "Ideas") }.tag(2)

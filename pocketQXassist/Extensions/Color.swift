@@ -22,4 +22,5 @@ struct ColorTheme {
     let backgroundBar: Color = Color("BackgroundBarColor")
     let customGreen: Color = Color("CustomGreenColor")
     let customRed: Color = Color("CustomRedColor")
+    let backgroundWeb: Color = Color("BackgroundWeb")
 }

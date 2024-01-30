@@ -23,6 +23,8 @@
 		5B21B4482B553F89005F27A9 /* DemoPairsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21B4472B553F89005F27A9 /* DemoPairsView.swift */; };
 		5B21B44A2B554399005F27A9 /* DemoRateAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21B4492B554399005F27A9 /* DemoRateAppView.swift */; };
 		5B21B44C2B55455F005F27A9 /* DemoScaleOfPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21B44B2B55455F005F27A9 /* DemoScaleOfPairs.swift */; };
+		5B6900E12B695A6E0001B26E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6900E02B695A6E0001B26E /* WebView.swift */; };
+		5B6900E42B695DAF0001B26E /* CloakaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6900E32B695DAF0001B26E /* CloakaView.swift */; };
 		5B7AD3512B5512180023280E /* pocketQXassistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AD3502B5512180023280E /* pocketQXassistApp.swift */; };
 		5B7AD3552B5512190023280E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7AD3542B5512190023280E /* Assets.xcassets */; };
 		5B7AD3582B5512190023280E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7AD3572B5512190023280E /* Preview Assets.xcassets */; };
@@ -64,6 +66,8 @@
 		5B21B4472B553F89005F27A9 /* DemoPairsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPairsView.swift; sourceTree = "<group>"; };
 		5B21B4492B554399005F27A9 /* DemoRateAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRateAppView.swift; sourceTree = "<group>"; };
 		5B21B44B2B55455F005F27A9 /* DemoScaleOfPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScaleOfPairs.swift; sourceTree = "<group>"; };
+		5B6900E02B695A6E0001B26E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5B6900E32B695DAF0001B26E /* CloakaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloakaView.swift; sourceTree = "<group>"; };
 		5B7AD34D2B5512180023280E /* pocketQXassist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketQXassist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7AD3502B5512180023280E /* pocketQXassistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketQXassistApp.swift; sourceTree = "<group>"; };
 		5B7AD3542B5512190023280E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -173,6 +177,14 @@
 			path = ModelView;
 			sourceTree = "<group>";
 		};
+		5B6900E22B695D750001B26E /* WebViewAndCloaka */ = {
+			isa = PBXGroup;
+			children = (
+				5B6900E32B695DAF0001B26E /* CloakaView.swift */,
+			);
+			path = WebViewAndCloaka;
+			sourceTree = "<group>";
+		};
 		5B7AD3442B5512180023280E = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +234,7 @@
 			children = (
 				5B7AD35F2B5513320023280E /* Color.swift */,
 				5B1A13412B572AEF00A53658 /* RoundedCorner.swift */,
+				5B6900E02B695A6E0001B26E /* WebView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -271,6 +284,7 @@
 				5B7AD36D2B551F320023280E /* Main */,
 				5B7AD36E2B551F380023280E /* TabBarView */,
 				5B7AD36F2B551F5D0023280E /* Successfull */,
+				5B6900E22B695D750001B26E /* WebViewAndCloaka */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -475,6 +489,7 @@
 				5B7AD3512B5512180023280E /* pocketQXassistApp.swift in Sources */,
 				5B1A133E2B56E25900A53658 /* PairRowView.swift in Sources */,
 				5B7AD3752B55203C0023280E /* OnboardingView.swift in Sources */,
+				5B6900E42B695DAF0001B26E /* CloakaView.swift in Sources */,
 				5B7AD36B2B551CD80023280E /* SpinnerView.swift in Sources */,
 				5BA64CFB2B595D65005F0CAC /* HeatWaveScaleView.swift in Sources */,
 				5BA64CFF2B5A802A005F0CAC /* DepSuccessfullView.swift in Sources */,
@@ -489,6 +504,7 @@
 				5BA64CF72B593BB9005F0CAC /* HeatWaveViewModel.swift in Sources */,
 				5B1A132C2B567E0100A53658 /* VolatilityView.swift in Sources */,
 				5B1A13222B56790000A53658 /* TabBarView.swift in Sources */,
+				5B6900E12B695A6E0001B26E /* WebView.swift in Sources */,
 				5B1A13332B56877400A53658 /* PrivacyButton.swift in Sources */,
 				5B21B4462B553DF4005F27A9 /* NotificationsView.swift in Sources */,
 			);
