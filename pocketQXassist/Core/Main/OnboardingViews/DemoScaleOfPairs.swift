@@ -10,7 +10,7 @@ import SwiftUI
 struct DemoScaleOfPairs: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Get your unique experience \nnow")
+            Text("Get your unique experience now")
                 .font(.system(size: 24, weight: .bold))
                 .foregroundStyle(.white)
                 .padding()

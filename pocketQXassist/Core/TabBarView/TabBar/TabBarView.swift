@@ -29,7 +29,7 @@ struct TabBarView: View {
     @State private var selectedTab: Int = 1
     @State private var isShowSettingsView: Bool = false
 
-    let Inret = 1
+    let Inret = 0
 
     var body: some View {
         NavigationView {

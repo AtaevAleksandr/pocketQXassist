@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  pocketQXassist
+
+  Created by Aleksandr Ataev on 02.02.2024.
+  
+*/
+
+"Welcome!" = "Добро пожаловать!";
+"Our application will introduce you to the market, suitable for both beginners and experienced traders." = "Наше приложение познакомит вас с рынком, подойдет как новичкам, так и опытным трейдерам.";
+"Let's introduce you to the functionality, you will like it!" = "Давайте познакомим вас с функционалом, вам понравится!";
+"Don't miss \nthe notification from AI bot" = "Не пропустите\nуведомление от AI-бота";
+"Thermal charts of pairs" = "Термические карты пар";
+"Choose a pair and build your strategies" = "Выберите пару и постройте свои стратегии";
+"Help us to improve the app" = "Помогите нам улучшить приложение";
+"Other users about us" = "Другие пользователи о нас";
+"Get your unique experience now" = "Получите свой уникальный опыт сейчас";
+"Show" = "Показать";
+"Continue" = "Продолжить";
+"Home" = "Дом";
+"Ideas" = "Идеи";
+"Volatility" = "Волатильность";
+"Trade Ideas" = "Торговые идеи";
+"Currency Heatwave" = "Валютная волна тепла";
+"The next update is in" = "Следующее обновление через";
+"Settings" = "Настройки";
+"Back" = "Назад";
+"Privacy Policy" = "Политика конфиденциальности";
+"Support" = "Поддержка";
+"Registration completed" = "Регистрация завершена";
+"Your first deposit was \nsuccessful" = "Ваш первый депозит был \nуспешным";
+"Don't miss your chance \nto make money!" = "Не упустите свой шанс\nзарабатывать деньги!";
+"Turn on push notifications \nfor more efficient use of push notifications" = "Включите push-уведомления\nдля более эффективного использования push-уведомлений";
+"Already " = "Уже ";
+"users have registered and are earning right now!" = "пользователей зарегистрировались и зарабатывают прямо сейчас!";
+"Congratulations! \nYour demo account is growing. Start earning from your first deposit now!" = "Поздравляем! \nВаш демо-счет растет. Начните зарабатывать с первого депозита прямо сейчас!";
+"Next" = "Далее";
+"Continue" = "Продолжить";
