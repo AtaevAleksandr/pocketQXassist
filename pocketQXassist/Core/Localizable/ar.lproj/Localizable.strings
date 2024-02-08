@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  pocketQXassist
+
+  Created by Aleksandr Ataev on 02.02.2024.
+  
+*/
+
+"Welcome!" = "مرحبًا!";
+"Our application will introduce you to the market, suitable for both beginners and experienced traders." = "سوف يقدم لك تطبيقنا مقدمة عن السوق، مناسبة لكل من المبتدئين والتجار المتمرسين.";
+"Let's introduce you to the functionality, you will like it!" = "دعونا نقدم لك وظائف التطبيق، ستعجبك!";
+"Don't miss \nthe notification from AI bot" = "لا تفوت \nالإشعارات من برنامج AI bot";
+"Thermal charts of pairs" = "الرسوم الحرارية للأزواج";
+"Choose a pair and build your strategies" = "اختر زوجًا وقم ببناء استراتيجياتك";
+"Help us to improve the app" = "ساعدنا في تحسين التطبيق";
+"Other users about us" = "آراء المستخدمين الآخرين حولنا";
+"Get your unique experience now" = "احصل على تجربتك الفريدة الآن";
+"Show" = "عرض";
+"Continue" = "استمرار";
+"Home" = "الرئيسية";
+"Ideas" = "أفكار";
+"Volatility" = "تقلب";
+"Trade Ideas" = "أفكار التداول";
+"Currency Heatwave" = "موجة الحرارة النقدية";
+"The next update is in" = "التحديث القادم في";
+"Settings" = "الإعدادات";
+"Back" = "رجوع";
+"Privacy Policy" = "سياسة الخصوصية";
+"Support" = "الدعم";
+"Registration completed" = "تم التسجيل بنجاح";
+"Your first deposit was \nsuccessful" = "كان إيداعك الأول ناجحًا";
+"Don't miss your chance \nto make money!" = "لا تفوت فرصتك \nلكسب المال!";
+"Turn on push notifications \nfor more efficient use of push notifications" = "قم بتشغيل الإشعارات للحصول على استخدام أكثر كفاءة للإشعارات";
+"Already " = "بالفعل ";
+"users have registered and are earning right now!" = "لقد سجل المستخدمون بالفعل ويكسبون الآن!";
+"Congratulations! \nYour demo account is growing. Start earning from your first deposit now!" = "تهانينا! \nحساب العرض التجريبي الخاص بك ينمو. ابدأ الكسب من الإيداع الأول الآن!";
+"Next" = "التالي";
+"Continue" = "استمرار";

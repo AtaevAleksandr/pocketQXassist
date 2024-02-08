@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  pocketQXassist
+
+  Created by Aleksandr Ataev on 02.02.2024.
+  
+*/
+
+"Welcome!" = "¡Bienvenido!";
+"Our application will introduce you to the market, suitable for both beginners and experienced traders." = "Nuestra aplicación te introducirá en el mercado, adecuado tanto para principiantes como para traders experimentados.";
+"Let's introduce you to the functionality, you will like it!" = "Te presentaremos la funcionalidad, ¡te va a encantar!";
+"Don't miss \nthe notification from AI bot" = "No te pierdas \nla notificación del bot de inteligencia artificial";
+"Thermal charts of pairs" = "Gráficos térmicos de pares";
+"Choose a pair and build your strategies" = "Elige un par y construye tus estrategias";
+"Help us to improve the app" = "Ayúdanos a mejorar la aplicación";
+"Other users about us" = "Otros usuarios sobre nosotros";
+"Get your unique experience now" = "Obtén tu experiencia única ahora";
+"Show" = "Mostrar";
+"Continue" = "Continuar";
+"Home" = "Inicio";
+"Ideas" = "Ideas";
+"Volatility" = "Volatilidad";
+"Trade Ideas" = "Ideas de comercio";
+"Currency Heatwave" = "Ola de calor de la moneda";
+"The next update is in" = "La próxima actualización es en";
+"Settings" = "Ajustes";
+"Back" = "Atrás";
+"Privacy Policy" = "Política de privacidad";
+"Support" = "Soporte";
+"Registration completed" = "Registro completado";
+"Your first deposit was \nsuccessful" = "Tu primer depósito fue \nexitoso";
+"Don't miss your chance \nto make money!" = "¡No pierdas tu oportunidad \nde ganar dinero!";
+"Turn on push notifications \nfor more efficient use of push notifications" = "Activa las notificaciones push \npara un uso más eficiente de las notificaciones push";
+"Already " = "Ya ";
+"users have registered and are earning right now!" = "usuarios se han registrado y están ganando dinero en este momento!";
+"Congratulations! \nYour demo account is growing. Start earning from your first deposit now!" = "¡Felicitaciones! \nTu cuenta demo está creciendo. ¡Comienza a ganar dinero desde tu primer depósito ahora!";
+"Next" = "Siguiente";
+"Continue" = "Continuar";
